@@ -9,8 +9,15 @@
 
 .navbar-inverse a.navbar-brand {
   font-family: "Helvetica Neue", Helvetica;
-  font-weight: 100;
+  font-weight: 200;
   color: black;
+  font-size: 50px;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 150;
+  color: black !important;
 }
 
 .hero {
@@ -73,7 +80,7 @@ body {
   margin: 10px;
 }
 
-.help-block {
+.invalid-feedback {
   color: #ff3333;
   background-color: #FFEEEE;
   border-radius: 3px;
